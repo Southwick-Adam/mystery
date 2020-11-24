@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/item_assets/icepick.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Ice Pick"
+stackable = false
+type = 0
+texture = ExtResource( 2 )
+effect_range = 1
+cooldown = 0
+damage = 20
+accuracy = 0.95
+uses = -1

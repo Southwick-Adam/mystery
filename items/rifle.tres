@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/item_assets/rifle.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Rifle"
+stackable = false
+type = 0
+texture = ExtResource( 2 )
+effect_range = 7
+cooldown = 0
+damage = 40
+accuracy = 0.8
+uses = 3
