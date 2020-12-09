@@ -35,6 +35,24 @@ texture = ExtResource( 2 )
 [node name="icon" type="Sprite" parent="slots/slot1"]
 z_index = 1
 
+[node name="Label" type="Label" parent="slots/slot1"]
+margin_left = -5.35199
+margin_top = 21.8541
+margin_right = 34.648
+margin_bottom = 35.8541
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shade" type="Sprite" parent="slots/slot1"]
+visible = false
+self_modulate = Color( 0, 0, 0, 0.54902 )
+position = Vector2( -40.9887, 0.692425 )
+scale = Vector2( 2.5, 2.5 )
+texture = ExtResource( 2 )
+offset = Vector2( 16.3955, -0.27697 )
+
 [node name="slot2" type="TouchScreenButton" parent="slots"]
 position = Vector2( 797.324, 148 )
 shape = SubResource( 1 )
@@ -47,6 +65,24 @@ texture = ExtResource( 2 )
 
 [node name="icon" type="Sprite" parent="slots/slot2"]
 z_index = 1
+
+[node name="Label" type="Label" parent="slots/slot2"]
+margin_left = -5.35199
+margin_top = 21.0
+margin_right = 34.648
+margin_bottom = 35.0
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shade" type="Sprite" parent="slots/slot2"]
+visible = false
+self_modulate = Color( 0, 0, 0, 0.54902 )
+position = Vector2( -40.5457, 1.19049 )
+scale = Vector2( 2.5, 2.5 )
+texture = ExtResource( 2 )
+offset = Vector2( 16.2183, -0.476196 )
 
 [node name="slot3" type="TouchScreenButton" parent="slots"]
 position = Vector2( 797.324, 241 )
@@ -61,6 +97,24 @@ texture = ExtResource( 2 )
 [node name="icon" type="Sprite" parent="slots/slot3"]
 z_index = 1
 
+[node name="Label" type="Label" parent="slots/slot3"]
+margin_left = -5.35199
+margin_top = 21.0
+margin_right = 34.648
+margin_bottom = 35.0
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shade" type="Sprite" parent="slots/slot3"]
+visible = false
+self_modulate = Color( 0, 0, 0, 0.54902 )
+position = Vector2( -41.0331, 1.02346 )
+scale = Vector2( 2.5, 2.5 )
+texture = ExtResource( 2 )
+offset = Vector2( 16.4132, -0.409386 )
+
 [node name="slot4" type="TouchScreenButton" parent="slots"]
 position = Vector2( 797.324, 334 )
 shape = SubResource( 1 )
@@ -74,6 +128,24 @@ texture = ExtResource( 2 )
 [node name="icon" type="Sprite" parent="slots/slot4"]
 z_index = 1
 
+[node name="Label" type="Label" parent="slots/slot4"]
+margin_left = -5.35199
+margin_top = 21.0
+margin_right = 34.648
+margin_bottom = 35.0
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shade" type="Sprite" parent="slots/slot4"]
+visible = false
+self_modulate = Color( 0, 0, 0, 0.54902 )
+position = Vector2( -40.841, 0.560837 )
+scale = Vector2( 2.5, 2.5 )
+texture = ExtResource( 2 )
+offset = Vector2( 16.3364, -0.224335 )
+
 [node name="slot5" type="TouchScreenButton" parent="slots"]
 position = Vector2( 797.324, 427 )
 shape = SubResource( 1 )
@@ -86,6 +158,24 @@ texture = ExtResource( 2 )
 
 [node name="icon" type="Sprite" parent="slots/slot5"]
 z_index = 1
+
+[node name="Label" type="Label" parent="slots/slot5"]
+margin_left = -5.35199
+margin_top = 21.0
+margin_right = 34.648
+margin_bottom = 35.0
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shade" type="Sprite" parent="slots/slot5"]
+visible = false
+self_modulate = Color( 0, 0, 0, 0.54902 )
+position = Vector2( -40.6783, 3.09856 )
+scale = Vector2( 2.5, 2.5 )
+texture = ExtResource( 2 )
+offset = Vector2( 16.2713, -1.23943 )
 
 [node name="timers" type="Position2D" parent="."]
 

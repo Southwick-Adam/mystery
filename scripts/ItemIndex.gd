@@ -12,12 +12,6 @@ func _ready():
 	var filename = directory.get_next()
 	while(filename):
 		if not directory.current_is_dir():
-			Items.append(load("res://items/%s" % filename))
+			Items.append("res://items/%s" % filename)
 			
 		filename = directory.get_next()
-
-func _get_item(item_name):
-	for i in Items:
-		if i.name == item_name:
-			return i
-	return null

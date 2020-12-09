@@ -23,3 +23,6 @@ func _process(_delta):
 	
 func _on_healthTimer_timeout():
 	health_fade = true
+
+func _on_TouchScreenButton_pressed():
+	get_node("/root/main")._target_tapped(self)

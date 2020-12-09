@@ -1,11 +1,15 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/block.png" type="Texture" id=1]
 [ext_resource path="res://assets/item_assets/icepick.png" type="Texture" id=2]
 [ext_resource path="res://scripts/item_card.gd" type="Script" id=3]
 
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 44, 62 )
+
 [node name="item_card" type="Node2D"]
-scale = Vector2( 1.2, 1.2 )
+modulate = Color( 1, 1, 1, 0.811765 )
+scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 3 )
 
 [node name="card" type="Sprite" parent="."]
@@ -95,3 +99,44 @@ valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="accuracy" type="Label" parent="."]
+margin_left = 24.6335
+margin_top = -24.4176
+margin_right = 40.6335
+margin_bottom = -10.4176
+text = "1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cooldown" type="Label" parent="."]
+margin_left = 25.6414
+margin_top = -7.18216
+margin_right = 41.6414
+margin_bottom = 6.81784
+text = "1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="damage" type="Label" parent="."]
+margin_left = 25.5407
+margin_top = 8.84375
+margin_right = 41.5406
+margin_bottom = 22.8438
+text = "1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+shape = SubResource( 1 )
+shape_centered = false
+[connection signal="pressed" from="TouchScreenButton" to="." method="_on_TouchScreenButton_pressed"]

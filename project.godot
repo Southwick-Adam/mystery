@@ -33,10 +33,7 @@ config/icon="res://icon.png"
 [autoload]
 
 ItemIndex="*res://scripts/ItemIndex.gd"
-
-[debug]
-
-shapes/collision/shape_color=Color( 0, 0.6, 0.701961, 0.501961 )
+ItemEffects="*res://scripts/ItemEffects.gd"
 
 [display]
 
@@ -55,4 +52,5 @@ pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
+environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
 environment/default_environment="res://default_env.tres"

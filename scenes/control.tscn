@@ -5,6 +5,7 @@
 
 [node name="control" type="Sprite"]
 self_modulate = Color( 0.321569, 0.729412, 0.870588, 0.494118 )
+position = Vector2( 82.2473, 397.384 )
 texture = ExtResource( 2 )
 script = ExtResource( 1 )
 
