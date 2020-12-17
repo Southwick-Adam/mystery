@@ -4,6 +4,7 @@
 [ext_resource path="res://assets/circle.png" type="Texture" id=2]
 
 [node name="control" type="Sprite"]
+modulate = Color( 1, 1, 1, 0.4 )
 self_modulate = Color( 0.321569, 0.729412, 0.870588, 0.494118 )
 position = Vector2( 82.2473, 397.384 )
 texture = ExtResource( 2 )
